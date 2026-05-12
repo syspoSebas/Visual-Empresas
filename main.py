@@ -32,7 +32,7 @@ st.markdown("Visualización sencilla de facturación por cliente")  # Subtítulo
 def cargar_datos():
     """Función que carga el archivo Excel"""
     # Definimos la ruta donde está el archivo (cámbiala si es necesario)
-    ruta = Path(r"C:\Users\ingsoporte3\OneDrive - Syspotec\Documentos\empresas\emp_clean.xlsx")
+    ruta = Path("emp_clean.xlsx")
     
     # Verificamos si el archivo existe
     if not ruta.exists():
