@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 # Título principal de la aplicación
-st.title("Análisis de Empresas")
+st.title("Análisis de Empresas S")
 st.markdown("Visualización sencilla de facturación por cliente")  # Subtítulo descriptivo
 
 
